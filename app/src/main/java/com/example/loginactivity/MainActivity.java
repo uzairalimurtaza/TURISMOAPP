@@ -91,10 +91,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendUserToHomeActivity() {
-        Intent HomeIntent = new Intent(MainActivity.this, MainActivityHome.class);
-        HomeIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(HomeIntent);
-        finish();
+//        Intent HomeIntent = new Intent(MainActivity.this, MainActivityHome.class);
+//        HomeIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//        startActivity(HomeIntent);
+//        finish();
     }
 }
 

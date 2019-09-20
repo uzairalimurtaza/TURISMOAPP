@@ -96,7 +96,7 @@ public class Login_activity2 extends AppCompatActivity {
     }
 
     private void sendUserToMainActivity() {
-        Intent mainIntent = new Intent(Login_activity2.this,MainActivityHome.class);
+        Intent mainIntent = new Intent(Login_activity2.this,Home.class);
         mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(mainIntent);
         finish();
